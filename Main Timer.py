@@ -16,8 +16,9 @@ minute = int(input("How many minutes would you like to create your countdown tim
 minutes = minute * 60
 seconds = int(input("How many seconds would you like to create your countdown timer for?"))
 full_seconds = hours + minutes + seconds
-while full_seconds > 0:
-    print(full_seconds - 1 + " seconds left")
+while (full_seconds == 0) == False:
+    print(str(full_seconds) + " seconds left")
     time.sleep(1)
+    full_seconds = full_seconds - 1
 else:
-    playsound("https://github.com/Samthebest999/Python-Count-Down-Timer/raw/main/Alarm%20Clock.wav")
+    playsound("https://github.com/Samthebest999/Python-Count-Down-Timer/raw/main/AlarmClock.wav")
