@@ -8,7 +8,7 @@ if wyltkwabw == "Yes":
     1. It is very lightweight, and it is great beacuse your browser takes a heavy load on your computer... you can leave this open in the background and it will use very little computer resources as it is coded in python.
     2. It is very fast unlike the ones on the web browser the javascript for those websites is very complicated and has a slower execution time. My program runs on simple subtraction and displaying numbers so it is much faster.
 """)
-elif wyltkwabw == "No:
+elif wyltkwabw == "No":
     print("Ok We will continue")
 hour = int(input("How many hours would you like to create your countdown timer for? (If it is less than a hour enter 0)"))
 hours = hour * 3600
